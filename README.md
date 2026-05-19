@@ -55,56 +55,35 @@ The final model included:
 ## Visualizations
 
 ### Earnings Distribution
+![Distribution of Median Earnings](outputs/Distribution_of_Median_Earnings.png)
 
-```{r, out.width="50%", fig.align="center"}
-knitr::include_graphics("../outputs/Distribution_of_Median_Earnings.png")
-```
-
-```{r, out.width="50%", fig.align="center"}
-knitr::include_graphics("../outputs/Distribution_of_Log-Transformed_Earnings.png")
-```
+![Log Earnings Distribution](outputs/Distribution_of_Log-Transformed_Earnings.png)
 
 ### Enrollment and Earnings
 
-```{r, out.width="50%", fig.align="center"}
-knitr::include_graphics("../outputs/Enrollment_vs_Earnings.png")
-```
+![Enrollment vs Earnings](outputs/Enrollment_vs_Earnings.png)
 
-```{r, out.width="50%", fig.align="center"}
-knitr::include_graphics("../outputs/Log_Enrollment_vs_Earnings.png")
-```
+![Log Enrollment vs Earnings](outputs/Log_Enrollment_vs_Earnings.png)
 
 ### Earnings by Institution Type
 
-```{r, out.width="50%", fig.align="center"}
-knitr::include_graphics("../outputs/Earnings_by_Institution_Type.png")
-```
+![Earnings by Institution Type](outputs/Earnings_by_Institution_Type.png)
 
 ### Correlation Matrix
 
-```{r, out.width="60%", fig.align="center"}
-knitr::include_graphics("../outputs/Correlation_Matrix.png")
-```
+![Correlation Matrix](outputs/Correlation_Matrix.png)
 
 ### Model Coefficients
 
-```{r, out.width="55%", fig.align="center"}
-knitr::include_graphics("../outputs/Main_Model_Coefficient_Estimates.png")
-```
+![Coefficient Estimates](outputs/Main_Model_Coefficient_Estimates.png)
 
 ### Diagnostic Plots
 
-```{r, out.width="55%", fig.align="center"}
-knitr::include_graphics("../outputs/Observed_vs_predicted_plot.png")
-```
+![Observed vs Predicted](outputs/Observed_vs_predicted_plot.png)
 
-```{r, out.width="55%", fig.align="center"}
-knitr::include_graphics("../outputs/Residuals_vs_Fitted_Values.png")
-```
+![Residuals vs Fitted](outputs/Residuals_vs_Fitted_Values.png)
 
-```{r, out.width="55%", fig.align="center"}
-knitr::include_graphics("../outputs/Q-Q_plot.png")
-```
+![Q-Q Plot](outputs/Q-Q_plot.png)
 
 ---
 
