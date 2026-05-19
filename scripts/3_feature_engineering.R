@@ -31,3 +31,6 @@ model_df <- college_clean %>%
     median_debt,
     CONTROL
   )
+
+
+write_csv(model_df, "data/processed/model_df.csv")
