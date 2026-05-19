@@ -53,6 +53,7 @@ college_clean <- college_clean %>%
   drop_na(earnings, enrollment)
 
 # Create transformed variables to reduce skewness
+# Previous analysis showed the earnings and enrollment were heavily right skewed
 college_clean <- college_clean %>%
   mutate(
     log_earnings = log(earnings),
